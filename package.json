@@ -1,0 +1,25 @@
+{
+  "name": "@chiefkoshi/test-tw-compat",
+  "version": "1.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "bunchee ./index.ts",
+    "dev": "bunchee ./index.ts -w"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tw-classed/react": "^1.3.2"
+  },
+  "devDependencies": {
+    "bunchee": "^2.2.0",
+    "typescript": "^4.9.4"
+  }
+}
